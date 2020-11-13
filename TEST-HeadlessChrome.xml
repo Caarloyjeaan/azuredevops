@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome" package="" timestamp="2020-11-13T14:38:00" id="0" test="" errors="" failures="" time="0.6">
+    <properties>
+        <property name="Browser.fullName" value="Mozilla/5.0  Safari/537.36  HeadlessChrome/77.0.3844.0 AppleWebKit/537.36"/>
+    </properties>
+    <testcase name="AppComponet should render title" time="0.2" classname="HeadlessChrome.AppComponet"/>
+    <testcase name="AppComponet should create the app" time="0.2" classname="HeadlessChrome.AppComponet"/>
+    <testcase name="AppComponet should have as title 'Laboratioriojean.git'" time="0.2" classname="HeadlessChrome.AppComponet"/>
+    <sistem-out>
+        <![CDATA [HeadlessChrome LOG:'config', undefined]]>
+    </sistem-out>
+</testsuite>
