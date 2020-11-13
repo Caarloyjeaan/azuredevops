@@ -21,4 +21,14 @@ steps:
 - script:  npx ng build --prod
   displayName: "Construir aplicacion web"
 
+- script: npmx ng test --watch=false
+  displayName: 'Ejecución de pruebas unitarias'
+
+- task: PublishTestResults@2
+  condition: succededOrFiled()
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResutlsFiles: '**/TEST-*.xml'
+  displayName: 'Publicar resultados de los test'
+
 
